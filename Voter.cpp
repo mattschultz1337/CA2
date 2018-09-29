@@ -10,7 +10,8 @@ void cmd_view(string& lastname,string& firstname, int& age, int& stnum, string& 
 void cmd_report(string lastname, float amtdonated);
 void cmd_donate(float& amtdonated);
 
-
+class Voter;
+class VoterDB;
 int main(int argc, char *argv[]) {
    cout << "Enter a command(Login,New,Report,Save,Load, or Quit)";
    cout << ">: ";
